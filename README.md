@@ -3,7 +3,7 @@
 The ultimate CV builder is a web application created with Next.JS aiming to generate the perfect CV for a job description using openAI. 
 
 ## Support me
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/yourusername)
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/karim.jd)
 
 
 ## Installation
