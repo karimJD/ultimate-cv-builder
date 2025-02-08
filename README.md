@@ -19,7 +19,7 @@ yarn install
 ## Usage
 1. Create a .env file 
   ```bash
-    OPEN_AI_APIKEY= Paste your openAi API key
+    OPENAI_API_KEY= Paste your openAi API key
   ```
 
 2. Run the project
