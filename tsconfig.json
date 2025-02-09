@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/cvGenerator.js", "app/config.js", "app/apiClient.js", "app/types.js"  ],
   "exclude": [
     "node_modules"
   ]
