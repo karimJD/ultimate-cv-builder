@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import * as pdfjsLib from "pdfjs-dist";
-import { generateCV } from "./openAI";
 import { PDFViewer } from "@react-pdf/renderer";
 import CV from "./CV";
+import {  generateCV } from "./cvGenerator";
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
 
@@ -76,7 +76,7 @@ export default function Home() {
           </PDFViewer>
         )}
 
-        {!generatedCV && isLoading && <placeholder />}
+        {!generatedCV && isLoading && "placeholder"}
       </div>
       <div className="flex-1 h-full bg-gray-800 flex flex-col justify-between p-5">
         <div className="flex flex-col gap-5">
