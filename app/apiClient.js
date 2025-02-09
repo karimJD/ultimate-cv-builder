@@ -8,11 +8,12 @@ export function createAIClient(apiKey, provider = 'openai') {
 
   const config = {
     apiKey,
-    ...(provider === 'gemini' && { baseURL: AI_CONFIG[provider].baseUrl })
+    ...({ baseURL: AI_CONFIG[provider].baseUrl })
   };
 
   return {
     client: new OpenAI(config),
-    model: AI_CONFIG[provider].model
+    model: AI_CONFIG[provider]?.model,
+    models : AI_CONFIG[provider]?.models
   };
 }
